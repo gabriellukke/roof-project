@@ -3,7 +3,7 @@ import './App.css';
 
 const App = () => (
   <div>
-    Rôof
+    Roof
   </div>
 );
 
