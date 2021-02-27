@@ -20,12 +20,3 @@ module.exports = {
   db,
 };
 
-db.collection("users").doc("frank").set({
-  name: "Frank",
-  favorites: {
-    food: "Pizza",
-    color: "Blue",
-    subject: "Recess"
-  },
-  age: 12
-})
