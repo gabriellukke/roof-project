@@ -5,7 +5,7 @@ import Vector from '../../Assets/icons/Vector.png';
 import instagram from '../../Assets/icons/instagram.png';
 import whatsapp from '../../Assets/icons/whatsapp-1.png';
 
-export default function Footer() {
+export default const Footer = () => {
 	return (
 
 		<footer className='footer-container'>
