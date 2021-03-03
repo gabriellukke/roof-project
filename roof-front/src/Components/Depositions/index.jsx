@@ -1,8 +1,7 @@
 import React from 'react';
+import personImage from '../../Assets/personImage.png';
 
 import styles from './index.module.css';
-
-import personImage from '../../Assets/personImage.png';
 
 const Depositions = () => (
 	<section className={styles.container}>
