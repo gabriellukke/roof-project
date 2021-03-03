@@ -1,7 +1,7 @@
 .container {
 	background: #dddddd;
 
-	width: min(90em, 100%);
+	width: 100%;
 	height: auto;
 
 	display: block;
@@ -103,6 +103,6 @@
 
 	.addressSection {
 		width: 100%;
-		margin-top: 2em;
+		margin: 2em 0;
 	}
 }
