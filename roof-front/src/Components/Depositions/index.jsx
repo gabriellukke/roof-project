@@ -1,6 +1,5 @@
 import React from 'react';
 import personImage from '../../Assets/personImage.png';
-
 import styles from './index.module.css';
 
 const Depositions = () => (
