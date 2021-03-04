@@ -14,7 +14,7 @@ const Depositions = () => (
 		
 		<div className={styles.cardsContainer}>
 			
-			<div className={styles.card}>
+			<article className={styles.card}>
 				<div>
 					<header>
 						<img src={ personImage } alt="Person" />
@@ -25,8 +25,8 @@ const Depositions = () => (
 						Exercitation veniam consequat sunt nostrud amet.
 					</p>
 				</div>
-			</div>
-			<div className={`${styles.card} ${styles.second}`}>
+			</article>
+			<article className={`${styles.card} ${styles.second}`}>
 				<div>
 					<header>
 						<img src={ personImage } alt="Person" />
@@ -37,8 +37,8 @@ const Depositions = () => (
 						Exercitation veniam consequat sunt nostrud amet.
 					</p>
 				</div>
-			</div>
-			<div className={`${styles.card} ${styles.third}`}>
+			</article>
+			<article className={`${styles.card} ${styles.third}`}>
 				<div>
 					<header>
 						<img src={ personImage } alt="Person" />
@@ -49,7 +49,7 @@ const Depositions = () => (
 						Exercitation veniam consequat sunt nostrud amet.
 					</p>
 				</div>
-			</div>
+			</article>
 		
 		</div>
 	</section>
