@@ -1,0 +1,84 @@
+/* Imports css */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
+
+:root {
+  --backgroundColor: #FFB2BB;
+  --FontSize: 1.5rem;
+  --colorBlack: #000000;
+  --colorWhite: #FFFFFF;
+}
+
+.nav {
+  background: var(--backgroundColor);
+  height: 80px;
+}
+
+.maxWidth {
+  align-items: center;
+  display: flex;
+  height: inherit;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 2.5rem;
+}
+
+.nav .logo {
+  height: 4rem;
+  width: 4rem;
+}
+
+.nav .menu {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.nav .menu li {
+  font-size: var(--FontSize);
+  margin-left: 1rem;
+}
+
+.nav .loginContent {
+  display: flex;
+}
+
+.nav .loginContent i {
+  font-size: 1.9rem;
+  padding: 0 2rem 0 1rem;
+  transform: translateY(3px);
+}
+
+.nav .deliveryBtn {
+  background: var(--colorBlack);
+  border: 1px solid var(--colorWhite);
+  border-radius: 8px;
+  color: var(--colorWhite);
+  cursor: pointer;
+  font-size: var(--FontSize);
+  padding: .2rem 1rem;
+}
+
+@media only screen and (max-width: 992px) {
+  :root {
+    --FontSize: 1.1rem;
+  }
+
+  .nav .logo {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+  
+  .nav .menu li {
+    font-size: var(--FontSize);
+    font-weight: 500;
+    margin-left: .7rem;
+  }
+
+  .nav .loginContent i {
+    font-size: 1.7rem;
+    padding: 0 1rem 0 1rem;
+    transform: translateY(-1px);
+  }
+
+}

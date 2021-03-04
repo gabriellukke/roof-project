@@ -1,9 +1,10 @@
 import React from 'react';
-import './app.css';
+import Navbar from './Components/Navbar';
+import './App.css';
 
 const App = () => (
   <div>
-    Roof
+    <Navbar />
   </div>
 );
 
