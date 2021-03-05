@@ -1,11 +1,15 @@
 /* Imports css */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
 
+* {
+  font-family: 'Poppins';
+}
+
 :root {
-  --backgroundColor: #FFB2BB;
+  --backgroundColor: #ffb2bb;
   --FontSize: 1.5rem;
   --colorBlack: #000000;
-  --colorWhite: #FFFFFF;
+  --colorWhite: #ffffff;
 }
 
 .nav {
@@ -56,10 +60,10 @@
   color: var(--colorWhite);
   cursor: pointer;
   font-size: var(--FontSize);
-  padding: .2rem 1rem;
+  padding: 0.2rem 1rem;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1075px) {
   :root {
     --FontSize: 1.1rem;
   }
@@ -68,11 +72,11 @@
     height: 3.5rem;
     width: 3.5rem;
   }
-  
+
   .nav .menu li {
     font-size: var(--FontSize);
     font-weight: 500;
-    margin-left: .7rem;
+    margin-left: 0.7rem;
   }
 
   .nav .loginContent i {
@@ -80,5 +84,102 @@
     padding: 0 1rem 0 1rem;
     transform: translateY(-1px);
   }
+}
 
+@media only screen and (max-width: 825px) {
+  .nav {
+    background: none;
+    height: 80px;
+  }
+
+  .logo,
+  .menuBtn {
+    z-index: 2;
+  }
+
+  .maxWidth {
+    padding: 0 1rem;
+  }
+
+  .menuBtn {
+    background: none;
+    border: 0;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Poppins';
+  }
+
+  .navMobile {
+    align-items: center;
+    background: #ccc;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    pointer-events: none;
+    position: absolute;
+    justify-content: center;
+    left: 0;
+    opacity: 0;
+    transition: 0.3s;
+    width: 100vw;
+  }
+
+  .navMobile li {
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+
+  .navMobileActive {
+    pointer-events: initial;
+    opacity: 1;
+    transition: 0.3s;
+  }
+
+  .loginContent {
+    border-left: 1px solid #000000;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 80px;
+    justify-content: left;
+    transform: translateY(40px);
+    width: 92vw;
+  }
+
+  .loginContent i {
+    left: -4px;
+    margin-top: 20px;
+    position: relative;
+    top: -3px;
+  }
+
+  .loginContent p {
+    padding-left: 10px;
+  }
+
+  .loginContent i::after {
+    content: 'Ver carrinho';
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 16px;
+  }
+
+  .nav .deliveryBtn {
+    background: none;
+    border: 0;
+    color: var(--colorBlack);
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 500;
+    transform: translateY(90px);
+  }
+
+  .closeMenuBtn {
+    font-size: 1.8rem;
+    padding-right: 1rem;
+  }
 }
