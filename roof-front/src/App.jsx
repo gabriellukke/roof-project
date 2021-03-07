@@ -1,13 +1,13 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 
 const App = () => (
-  <BrowserRouter>
+  <Router>
     <Switch>
       <Route />
     </Switch>
-  </BrowserRouter>
+  </Router>
 );
 
 export default App;
