@@ -1,11 +1,13 @@
 import React from 'react';
-import './app.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import './App.css';
 
 const App = () => (
-  <div>
-    Roof
-  </div>
+  <Router>
+    <Switch>
+      <Route />
+    </Switch>
+  </Router>
 );
-
 
 export default App;
