@@ -1,134 +1,130 @@
 .container {
   display: flex;
-	flex-direction: row;
+  flex-direction: row;
 
-	width: min(69.5em, 100%);
+  width: min(69.5em, 100%);
 
-	margin: auto;
+  margin: auto;
 }
 
 .titleContainer {
-	display: flex;
-	align-items: center;
-
+  display: flex;
+  align-items: center;
 }
 
 .titleContainer h1 {
-	font-size: 36px;
-	font-weight: 400;
-	line-height: 58.5px;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 58.5px;
 
-	width: 80%;
+  width: 80%;
 }
 
 .card {
-	background: rgba(196, 196, 196, 0.28);
+  background: rgba(196, 196, 196, 0.28);
 
-	width: 35.6em;
-	min-height: 21.6em;
-	height: auto;
+  width: 35.6em;
+  min-height: 21.6em;
+  height: auto;
 
-	padding: 2em;
-	margin-bottom: 4em;
+  padding: 2em;
+  margin-bottom: 4em;
 }
 
 .card div {
-	max-width: 36.8em;
+  max-width: 36.8em;
 }
 
 .card div header {
-	display: flex;
-	width: 100%;
-	align-items: center;
+  display: flex;
+  width: 100%;
+  align-items: center;
 }
 
 .card div header img {
-	width: 5.7em;
+  width: 5.7em;
 
-	border-radius: 50%;
+  border-radius: 50%;
 }
 
 .card div header h2 {
-	font-size: 36px;
-	font-weight: 400;
-	width: 90%;
-	margin-left: 1.5em;
+  font-size: 36px;
+  font-weight: 400;
+  width: 90%;
+  margin-left: 1.5em;
 }
 
 .card div p {
-	margin-top: 2em;
+  margin-top: 2em;
 
-	font-size: 24px;
-	font-weight: 400;
-	line-height: 25.68px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 25.68px;
 
-	width: 90%;
+  width: 90%;
 }
 
 .second {
-	position: relative;
-	right: 2em;
+  position: relative;
+  right: 2em;
 }
 
 .third {
-	position: relative;
-	right: 4em;
+  position: relative;
+  right: 4em;
 }
 
 @media (max-width: 875px) {
-	.container {
-		display: block;
-		margin: auto 1.5em;
-	}
+  .container {
+    display: block;
+    margin: auto 1.5em;
+  }
 
-	.titleContainer {
-		margin-bottom: 2em;
-		text-align: center;
-	}
+  .titleContainer {
+    margin-bottom: 2em;
+    text-align: center;
+  }
 
-	.card {
-		width: 90%;
-		padding: 1em;
-	}
+  .card {
+    width: 90%;
+    padding: 1em;
+  }
 
-	.card div p {
-		width: 100%;
-	}
+  .card div p {
+    width: 100%;
+  }
 
-	.second,
-	.third {
-		right: 0;
-		position: normal;
-	}
+  .second,
+  .third {
+    right: 0;
+    position: normal;
+  }
 }
 
 @media (max-width: 486px) {
-	.titleContainer h1 {
-		width: 90%;
-		font-size: 26px;
-	}
+  .titleContainer h1 {
+    width: 90%;
+    font-size: 26px;
+  }
 
-	.card div header {
-		align-items: flex-start;
-		
-		width: 100%;
-	}
+  .card div header {
+    align-items: flex-start;
 
-	.card div header img {
-		width: 5em;
-	}
+    width: 100%;
+  }
 
-	.card div header h2 {
-		margin-top: .5em;
-		margin-left: .5em;
-		
-		font-size: 24px;
-	}
+  .card div header img {
+    width: 5em;
+  }
 
-	.card div p {
-		font-size: 20px;
-	}
+  .card div header h2 {
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+
+    font-size: 24px;
+  }
+
+  .card div p {
+    font-size: 20px;
+  }
 }
-
-
-
