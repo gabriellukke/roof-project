@@ -1,5 +1,8 @@
 .container {
     margin: 722px 164px 1763px 166px;
+
+min-height: 100%;
+min-height: 100vh;
 }
 
 .courses{
@@ -19,7 +22,7 @@
 }
 
 .courses span img {
-    transform: translate(2%, 0%);
+    transform: translate(0%, 0%);
 
     width: 540px;
     height: 310px;
@@ -37,7 +40,7 @@
 }
 
 .courses button {
-    transform: translate(-74rem);
+    transform: translate(-30rem);
     width: 160px;
     height: 40px;
     background: #3EC6FF;
