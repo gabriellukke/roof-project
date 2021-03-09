@@ -1,7 +1,7 @@
 /* eslint-disable react/button-has-type */
 import React from 'react';
 
-import styles from './courses.module.css';
+import styles from './index.module.css';
 
 import img from '../../Assets/icons/img.svg';
 
