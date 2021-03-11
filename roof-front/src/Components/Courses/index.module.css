@@ -1,5 +1,7 @@
 .container {
-    margin: 722px 164px 1763px 166px;
+
+    margin-right: 10.25rem;
+    margin-left: 10.375rem;
     
     min-height: 100%;
     min-height: 100vh; 
@@ -25,8 +27,8 @@
 .courses span img {
     transform: translate(0%, 0%);
 
-    width: 540px;
-    height: 310px;
+    width: 33.75rem;
+    height: 19.40rem;
 }
 
 .courses p {
@@ -35,15 +37,15 @@
 
     transform: translateY(-12rem);
 
-    margin-bottom: 26px;
+    margin-bottom: 1.65rem;
 
     
 }
 
 .courses button {
     transform: translate(-30rem);
-    width: 160px;
-    height: 40px;
+    width: 10rem;
+    height: 2.5rem;
     background: #3EC6FF;
     color: #FFFFFF;
 
@@ -53,7 +55,7 @@
 
     cursor: pointer;
 
-    margin-top: 8px;
+    margin-top: 0.5rem;
     
     font-size: 1.4rem;
 }
@@ -64,7 +66,7 @@
         width: 100%;
 
 
-        margin: 672px 0px 1099px 0px; 
+        margin: 0; 
         padding: 0;
 
         display: grid;
@@ -111,8 +113,8 @@
 
 
     .courses span img {
-        width: 360px;
-        height: 153px;
+        width: 22.5rem;
+        height: 9.56rem;
 
         border-radius: 5px ;
 
@@ -128,8 +130,8 @@
 
         transform: translate(15rem, 0rem);
 
-        width: 102px;
-        height: 28px;
+        width: 6.4rem;
+        height: 1.75rem;
     }
 
 
