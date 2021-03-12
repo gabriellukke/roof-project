@@ -18,10 +18,13 @@
   line-height: 58.5px;
 
   width: 80%;
+
+  color: #009189;
 }
 
 .card {
-  background: rgba(196, 196, 196, 0.28);
+  background: #d67580;
+  color: #fff;
 
   width: 35.6em;
   min-height: 21.6em;
