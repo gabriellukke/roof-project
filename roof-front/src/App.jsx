@@ -1,12 +1,13 @@
 import React from 'react';
-/* import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; */
-import Footer from './Components/Footer';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 
 const App = () => (
-	<div>
-		<Footer />
-	</div>
+	<Router>
+		<Switch>
+			<Route />
+		</Switch>
+	</Router>
 );
 
 export default App;
