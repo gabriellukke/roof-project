@@ -1,50 +1,61 @@
 import React from 'react';
 import styles from './index.module.css';
 
-import Vector from '../../Assets/icons/Vector.png';
-import instagram from '../../Assets/icons/instagram.png';
-import whatsapp from '../../Assets/icons/whatsapp-1.png';
+import Logo from '../../Assets/logo.svg';
+import Instagram from '../../Assets/icons/instagram.svg';
+import Whatsapp from '../../Assets/icons/whatsapp.svg';
+import Arrow from '../../Assets/icons/arrow.svg';
 
 const Footer = () => (
-
 	<footer className={styles.container}>
 		<div>
-			<section className={styles.mainSection}>
-
-				<div className={styles.logoContent}>
-					<img src={ Vector } alt="Vector" />
+			<section className={styles.mainContainer}>
+				<div className={styles.logoContainer}>
+					<img src={Logo} alt="Logo" />
 				</div>
 
 				<div className={styles.contactContainer}>
+					<h3>Contato</h3>
 
-					<p className={styles.instagramContent}>
-						<img src={ instagram } alt="Instagram Logo" />
-						Instagram
-					</p>
-					<p>
-						Se você tiver dúvidas,
-						 mande uma mensagem para:
-					</p>
-					<p className={styles.whatsappContent}>
-						<img src={ whatsapp } alt="Whatsapp Logo" />
-						99 9999- 9999
-					</p>
+					<ul>
+						<li>
+							<img src={Instagram} alt="Instagram Logo" />
+							Instagram
+						</li>
+						<li>
+							<img src={Arrow} alt="Clubinho da Rôof" />
+							Clubinho da Rôof
+						</li>
+						<li>
+							<img src={Whatsapp} alt="Whatsapp Logo" />
+							99 9999- 9999
+						</li>
+					</ul>
 				</div>
 
-				<ul className={styles.navContainer}>
-					<strong>Navegação</strong>
-					<li>Quero aprender</li>
-					<li>Sobre</li>
-					<li>Dúvidas</li>
-					<li>Login</li>
-				</ul>
+				<div className={styles.navContainer}>
+					<h3>Navegação</h3>
+					<ul>
+						<li>Quero aprender</li>
+						<li>Sobre</li>
+						<li>Dúvidas</li>
+						<li>Login</li>
+					</ul>
+				</div>
+				<div className={styles.deliveryContainer}>
+					<h3>Delivery</h3>
+					<ul>
+						<li>Goomer</li>
+						<li>Ifood</li>
+					</ul>
 
-				<div className={styles.privacyTermsContainer}>
-					<p>Termos de uso e privacidade</p>
+					<div className={styles.privacyTermsContainer}>
+						<p>Termos de uso e privacidade</p>
+					</div>
 				</div>
 			</section>
 
-			<section className={styles.addressSection}>
+			<section className={styles.addressContainer}>
 				<p>Av. Belmiro Amorim, 1593 - Santa Lúcia, Maceió - AL, 57082-000</p>
 			</section>
 		</div>
