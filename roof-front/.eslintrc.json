@@ -21,7 +21,6 @@
   "plugins": ["react", "react-hooks", "prettier"],
   "rules": {
     "quotes": ["error", "single"],
-    "semi": ["error", "always"],
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    "semi": ["error", "always"]
   }
 }

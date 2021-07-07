@@ -6,3 +6,4 @@ serviceWorker.js
 setupTests.js
 .gitattributes
 .env
+index.js
